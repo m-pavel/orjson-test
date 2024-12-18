@@ -1,10 +1,9 @@
 use buffer::SmallFixedBuffer;
 use datetime::DateTimeBuffer;
 
-pub mod datetime;
-mod opt;
-mod util;
+mod datetime;
 mod buffer;
+mod opt;
 
 macro_rules! write_double_digit {
     ($buf:ident, $value:expr) => {

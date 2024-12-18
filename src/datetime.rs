@@ -1,5 +1,5 @@
 
-use crate::{opt::*, util};
+use crate::{opt::*};
 
 pub enum DateTimeError {
     LibraryUnsupported,
